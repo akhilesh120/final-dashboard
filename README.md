@@ -3,14 +3,12 @@
 ChurnLens AI is an advanced churn intelligence system designed for subscription-based digital platforms. By leveraging a Behavioral Digital Twin architecture, it moves beyond static classification to model the temporal evolution of user engagement through Graph Neural Networks (GNNs) and Reinforcement Learning (RL).
 # 📌 Project Overview:
 Customer churn is a multi-billion dollar challenge. ChurnLens AI addresses the limitations of traditional churn prediction by:
-* Modeling Dynamics: Using temporal interaction graphs to track how user behavior evolves over time.
+* Interactive data visualisation : generate dynamic graphs and charts for better understanding 
 * Digital Twin Simulation: Creating virtual replicas of users to run "what-if" scenarios (counterfactual simulations).
 * Proactive Intervention: Using Reinforcement Learning to determine the most effective retention strategy (e.g., personalized discounts vs. content recommendations).
 # 🏗 System Architecture:
 The framework is built on four primary pillars:
 * Data Acquisition & Feature Engineering: Extracts signals like rating_count, rating_mean, activity_rate, and high-value customer indicators from interaction logs.
-* Temporal Interaction Graphs: Maps user actions as nodes (content/features) and edges (sequential actions).
-* GNN & Sequence Modeling: Analyzes the structural and temporal shifts in the user graph to detect early disengagement signals.
 * Counterfactual Simulation Engine: The Digital Twin performs simulations to predict how a user would respond to specific interventions.
 * RL Policy Module: Learns and deploys the optimal retention strategy based on simulated outcomes.
 # 🛠 Tech Stack:
