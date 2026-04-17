@@ -32,10 +32,18 @@ The framework is built on four primary pillars:
 * User Satisfaction: Improving the user experience through hyper-personalized content discovery.
 # 📥 Installation & Setup
 # Create the repository
-https://github.com/kryti-4416/ChurnLensAI
+https://github.com/akhilesh120/final-dashboard/tree/main
+# create virtual environment
+python -m venv venv
 
 # Install sample datasets from MovieLens
 https://grouplens.org/datasets/movielens/ml-latest-small.zip
 
-# Train the GNN-Temporal Model
-python src/train_model.py --model gnn_temporal
+# Requirements
+* streamlit
+* pandas
+* matplotlib
+* scikit-learn
+# Deployment
+This app is deployed using streamlit community cloud and connected to github for automatic updates .
+
